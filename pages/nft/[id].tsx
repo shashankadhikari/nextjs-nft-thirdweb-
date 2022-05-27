@@ -19,8 +19,8 @@ function NFTDropPage() {
                 <img className='w-44 rounded-xl object-cover lg:h-96 lg:w-72' src="https://links.papareact.com/8sg"/>
             </div>
             <div className='space-y-2 p-5 text-center'>
-                <h1 className=' text-4xl font-bold text-white'>PAPAFAM Apes</h1>
-                <h2 className='text-xl text-gray-300'> A collection of PAPAFAM Apes who live & breathe React!</h2>
+                <h1 className=' text-4xl font-bold text-white'>Tech Temple Apes</h1>
+                <h2 className='text-xl text-gray-300'> A collection of Tech Temple Apes who live & breathe React!</h2>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@ function NFTDropPage() {
         {/* Header */}
 
         <header className='flex items-center justify-between'>
-        <h1 className=' w-52 cursor-pointer text-xl font-extralight sm:w-80 '> The{' '} <span className=' font-extrabold underline decoration-pink-600/50'>PAPAFAM</span> {' '} NFT Market Place</h1>
+        <h1 className=' w-52 cursor-pointer text-xl font-extralight sm:w-80 '> The{' '} <span className=' font-extrabold underline decoration-pink-600/50'>Tech Temple</span> {' '} NFT Market Place</h1>
 
         <button onClick={() => (address ? disconeect() : connectWithMetamask() )  } className='rounded-full bg-rose-400 px-4 py-2 text-xs font-bold text-white lg:px-5 lg:py-3 lg:text-base' > { address ? 'Sign Out' : 'Sign In'}</button>
         </header>
@@ -43,7 +43,7 @@ function NFTDropPage() {
 
         <div className='mt-10 flex flex-1 flex-col items-center space-y6 text-center lg:justify-center lg:space-y-0'>
             <img className='w-80 object-cover pb-10 lg:h-40' src="https://links.papareact.com/bdy"/>
-            <h1 className='text-3xl font-bold lg:text-5xl lg:font-extrabold'>The PAPAFAM Ape coding club | NFT Drop </h1>
+            <h1 className='text-3xl font-bold lg:text-5xl lg:font-extrabold'>The Tech Temple Ape coding club | NFT Drop </h1>
             <p className='pt-2 text-xl text-green-500'>12 / 21 NFT's claimed</p>
         </div>
 
